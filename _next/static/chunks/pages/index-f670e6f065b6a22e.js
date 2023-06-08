@@ -202,6 +202,23 @@
         },
         er = [
           {
+            name: 'bear',
+            staticImage: {
+              src: '/_next/static/media/bear-1.png',
+              height: 460,
+              width: 575,
+              blurWidth: 0,
+              blurHeight: 0,
+            },
+            ainmateImage: {
+              src: '/_next/static/media/bear-2.gif',
+              height: 460,
+              width: 575,
+              blurWidth: 0,
+              blurHeight: 0,
+            },
+          },
+          {
             name: 'stonk',
             staticImage: {
               src: '/_next/static/media/stonk_static.1c54c0e0.gif',
@@ -538,7 +555,7 @@
       }
       eu.displayName = 'Hide';
       var ef = {
-          src: '/_next/static/media/memecoin-banner.66e57ae7.gif',
+          src: '/_next/static/media/memecoin-banner.66e57ae7.png',
           height: 168,
           width: 768,
           blurWidth: 0,
@@ -1645,7 +1662,7 @@
               (0, W.jsx)(em.xu, {
                 width: '48px',
                 height: '48px',
-                children: (0, W.jsx)(eg(), { src: eA, alt: 'MEMECOIN' }),
+                children: (0, W.jsx)(eg(), { src: eA, alt: 'BEPO BEAR' }),
               }),
               (0, W.jsx)(em.xu, {
                 color: '#013043',
@@ -2582,8 +2599,8 @@
                 as: 'h1',
                 fontSize: '0px',
                 children: [
-                  'MEMECOIN',
-                  (0, W.jsx)(eg(), { src: ef, alt: 'MEMECOIN' }),
+                  'BEPO BEAR',
+                  (0, W.jsx)(eg(), { src: ef, alt: 'BEPO BEAR' }),
                 ],
               }),
               (0, W.jsxs)(_.k, {
@@ -5286,6 +5303,15 @@
               return e;
             }).apply(this, arguments);
       }
+      function getRandomItem(arr) {
+        // get random index value
+        const randomIndex = Math.floor(Math.random() * arr.length);
+
+        // get random item
+        const item = arr[randomIndex];
+
+        return item;
+      }
       var ac = (0, X.forwardRef)(function (e, t) {
         var a = e.title,
           r = e.titleId,
@@ -5313,222 +5339,13 @@
             }
             return n;
           })(e, ar);
-        return X.createElement(
-          'svg',
-          an(
-            {
-              xmlns: 'http://www.w3.org/2000/svg',
-              xmlnsXlink: 'http://www.w3.org/1999/xlink',
-              id: 'Layer_1',
-              shapeRendering: 'crispEdges',
-              x: '0px',
-              y: '0px',
-              viewBox: '0 0 15 15',
-              style: { enableBackground: 'new 0 0 15 15' },
-              xmlSpace: 'preserve',
-              ref: t,
-              'aria-labelledby': r,
-            },
-            n
-          ),
-          a ? X.createElement('title', { id: r }, a) : null,
-          F ||
-            (F = X.createElement(
-              'style',
-              { type: 'text/css' },
-              '\n	.st0{fill:#451834;}\n	.st1{fill:#A1472A;}\n	.st2{fill:#FFE84F;}\n	.st3{fill:#E39400;}\n'
-            )),
-          T ||
-            (T = X.createElement(
-              'g',
-              null,
-              X.createElement('polygon', {
-                className: 'st0',
-                points:
-                  '6,2 7,2 8,2 9,2 10,2 11,2 11,1 10,1 9,1 8,1 7,1 6,1 5,1 4,1 4,2 5,2  ',
-              }),
-              X.createElement('rect', {
-                x: 3,
-                y: 2,
-                className: 'st0',
-                width: 1,
-                height: 1,
-              }),
-              X.createElement('rect', {
-                x: 4,
-                y: 2,
-                className: 'st1',
-                width: 1,
-                height: 1,
-              }),
-              X.createElement('polygon', {
-                className: 'st2',
-                points:
-                  '9,2 8,2 7,2 6,2 5,2 5,3 6,3 7,3 8,3 9,3 10,3 11,3 11,2 10,2  ',
-              }),
-              X.createElement('rect', {
-                x: 11,
-                y: 2,
-                className: 'st0',
-                width: 1,
-                height: 1,
-              }),
-              X.createElement('rect', {
-                x: 2,
-                y: 3,
-                className: 'st0',
-                width: 1,
-                height: 1,
-              }),
-              X.createElement('rect', {
-                x: 3,
-                y: 3,
-                className: 'st1',
-                width: 1,
-                height: 1,
-              }),
-              X.createElement('rect', {
-                x: 4,
-                y: 3,
-                className: 'st2',
-                width: 1,
-                height: 1,
-              }),
-              X.createElement('rect', {
-                x: 10,
-                y: 3,
-                className: 'st1',
-                width: 1,
-                height: 1,
-              }),
-              X.createElement('rect', {
-                x: 11,
-                y: 3,
-                className: 'st2',
-                width: 1,
-                height: 1,
-              }),
-              X.createElement('rect', {
-                x: 12,
-                y: 3,
-                className: 'st0',
-                width: 1,
-                height: 1,
-              }),
-              X.createElement('polygon', {
-                className: 'st1',
-                points:
-                  '11,5 11,6 11,7 11,8 11,9 11,10 11,11 12,11 12,10 12,9 12,8 12,7 12,6 12,5 12,4 11,4  ',
-              }),
-              X.createElement('polygon', {
-                className: 'st0',
-                points:
-                  '13,4 13,5 13,6 13,7 13,8 13,9 13,10 13,11 14,11 14,10 14,9 14,8 14,7 14,6 14,5 14,4  ',
-              }),
-              X.createElement('polygon', {
-                className: 'st1',
-                points:
-                  '10,8 10,7 10,6 10,5 9,5 8,5 8,6 7,6 7,5 6,5 5,5 5,6 5,7 5,8 5,9 5,10 6,10 6,9 6,8 7,8 7,9 8,9 8,8    9,8 9,9 9,10 10,10 10,9  ',
-              }),
-              X.createElement('polygon', {
-                className: 'st0',
-                points:
-                  '2,9 2,8 2,7 2,6 2,5 2,4 1,4 1,5 1,6 1,7 1,8 1,9 1,10 1,11 2,11 2,10  ',
-              }),
-              X.createElement('polygon', {
-                className: 'st2',
-                points:
-                  '4,9 4,8 4,7 4,6 4,5 4,4 3,4 3,5 3,6 3,7 3,8 3,9 3,10 3,11 4,11 4,10  ',
-              }),
-              X.createElement('path', {
-                className: 'st3',
-                d: 'M11,9V8V7V6V5V4h-1V3H9H8H7H6H5v1H4v1v1v1v1v1v1v1h1v1h1h1h1h1h1v-1h1v-1V9z M9,10V9V8H8v1H7V8H6v1v1H5V9V8V7   V6V5h1h1v1h1V5h1h1v1v1v1v1v1H9z',
-              }),
-              X.createElement('polygon', {
-                className: 'st2',
-                points:
-                  '13,9 13,8 13,7 13,6 13,5 13,4 12,4 12,5 12,6 12,7 12,8 12,9 12,10 12,11 13,11 13,10  ',
-              }),
-              X.createElement('polygon', {
-                className: 'st1',
-                points:
-                  '3,10 3,9 3,8 3,7 3,6 3,5 3,4 2,4 2,5 2,6 2,7 2,8 2,9 2,10 2,11 3,11  ',
-              }),
-              X.createElement('rect', {
-                x: 2,
-                y: 11,
-                className: 'st0',
-                width: 1,
-                height: 1,
-              }),
-              X.createElement('rect', {
-                x: 3,
-                y: 11,
-                className: 'st1',
-                width: 1,
-                height: 1,
-              }),
-              X.createElement('rect', {
-                x: 4,
-                y: 11,
-                className: 'st2',
-                width: 1,
-                height: 1,
-              }),
-              X.createElement('rect', {
-                x: 10,
-                y: 11,
-                className: 'st1',
-                width: 1,
-                height: 1,
-              }),
-              X.createElement('rect', {
-                x: 11,
-                y: 11,
-                className: 'st2',
-                width: 1,
-                height: 1,
-              }),
-              X.createElement('rect', {
-                x: 12,
-                y: 11,
-                className: 'st0',
-                width: 1,
-                height: 1,
-              }),
-              X.createElement('rect', {
-                x: 3,
-                y: 12,
-                className: 'st0',
-                width: 1,
-                height: 1,
-              }),
-              X.createElement('rect', {
-                x: 4,
-                y: 12,
-                className: 'st1',
-                width: 1,
-                height: 1,
-              }),
-              X.createElement('polygon', {
-                className: 'st2',
-                points:
-                  '10,12 9,12 8,12 7,12 6,12 5,12 5,13 6,13 7,13 8,13 9,13 10,13 11,13 11,12  ',
-              }),
-              X.createElement('rect', {
-                x: 11,
-                y: 12,
-                className: 'st0',
-                width: 1,
-                height: 1,
-              }),
-              X.createElement('polygon', {
-                className: 'st0',
-                points:
-                  '9,13 8,13 7,13 6,13 5,13 4,13 4,14 5,14 6,14 7,14 8,14 9,14 10,14 11,14 11,13 10,13  ',
-              })
-            ))
-        );
+        return X.createElement('img', {
+          style: {
+            transition: 'all 5s ease-out',
+          },
+          width: getRandomItem(['100px', '80px', '60px', '40px']),
+          src: '_next/static/media/logo (6).png',
+        });
       });
       let ai = at.length,
         al = !1,
@@ -6375,7 +6192,7 @@
                                   children: ''.concat(r),
                                 }),
                                 ' ',
-                                '$MEME!',
+                                '$BEPO!',
                               ],
                             })
                           : (0, W.jsxs)(W.Fragment, {
