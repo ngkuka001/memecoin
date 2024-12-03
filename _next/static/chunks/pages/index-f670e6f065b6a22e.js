@@ -2587,8 +2587,28 @@
                 as: "h1",
                 fontSize: "0px",
                 children: [
-                  "One $meme to rule them all test.",
+                  "One $meme to rule them.",
                   (0, W.jsx)(eb, { height: "100%", width: "100%" }),
+                ],
+              }),
+              (0, W.jsxs)("h1", {
+                style: {
+                  fontSize: "24px",
+                  lineBreak: "anywhere",
+                  padding: "0 12px",
+                  textAlign: "center",
+                },
+                children: [
+                  "Contract:",
+                  (0, W.jsx)("button", {
+                    onClick: () => {
+                      navigator.clipboard.writeText(
+                        "7HKmpg2WtT1aizys2cYoqtztZQMsbpQF35D4pCLLpump"
+                      );
+                    },
+                    style: { marginLeft: "10px", cursor: "pointer" },
+                    children: "7HKmpg2WtT1aizys2cYoqtztZQMsbpQF35D4pCLLpump 📋",
+                  }),
                 ],
               }),
               (0, W.jsx)(eu, {
