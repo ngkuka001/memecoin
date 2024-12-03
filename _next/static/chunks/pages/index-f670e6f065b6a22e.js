@@ -1934,8 +1934,9 @@
               (0, W.jsxs)(W.Fragment, {
                 children: [
                   (0, W.jsx)(tV.r, {
-                    href: "#",
+                    href: "https://x.com/BepoBear1000x",
                     isExternal: !0,
+                    target: "_blank",
                     children: (0, W.jsx)(em.xu, {
                       height: r,
                       width: r,
@@ -1948,21 +1949,22 @@
                       }),
                     }),
                   }),
-                  (0, W.jsx)(tV.r, {
-                    href: "#",
-                    isExternal: !0,
-                    children: (0, W.jsx)(em.xu, {
-                      height: r,
-                      width: r,
-                      padding: "8px",
-                      children: (0, W.jsx)("img", {
-                        src: "../../../../_next/static/media/telegram.png",
-                        alt: "Image",
-                        height: "100%",
-                        width: "100%",
-                      }),
-                    }),
-                  }),
+                  // (0, W.jsx)(tV.r, {
+                  //   href: "#",
+                  //   isExternal: !0,
+                  //   target: "_blank",
+                  //   children: (0, W.jsx)(em.xu, {
+                  //     height: r,
+                  //     width: r,
+                  //     padding: "8px",
+                  //     children: (0, W.jsx)("img", {
+                  //       src: "../../../../_next/static/media/telegram.png",
+                  //       alt: "Image",
+                  //       height: "100%",
+                  //       width: "100%",
+                  //     }),
+                  //   }),
+                  // }),
                 ],
               }),
             (0, W.jsx)(tV.r, {
@@ -2585,7 +2587,7 @@
                 as: "h1",
                 fontSize: "0px",
                 children: [
-                  "One $meme to rule them all.",
+                  "One $meme to rule them all test.",
                   (0, W.jsx)(eb, { height: "100%", width: "100%" }),
                 ],
               }),
